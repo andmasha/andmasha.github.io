@@ -140,13 +140,44 @@ a.darken:hover span{color:#fff;
 }
 
 .nav ul li a:hover{
-  color: yellow;
+  color: #ffff85;
 /*  opacity: 0.8;*/
-  transition: color, 1s, ease-out;
+  transition: color, 0.5s, ease-out;
 }
 
+/*.hvr-underline {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 103px;
+  right:100%;
+  bottom: 3px;
+  background: #FFFFFF;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline:hover:before, .hvr-underlinefocus:before, .hvr-underline:active:before {
+  right: 0;
+}*/
 
-.navarrow {
+/*.navarrow {
     width: 0;
     height: 0;
     border-top: 6px solid transparent;
@@ -162,7 +193,7 @@ a.darken:hover span{color:#fff;
     -o-animation: fadein 2s;
     animation: fadein 2s;
 
-  }
+  }*/
 
 /*logo--------------------------------------------------------------*/
 
@@ -177,7 +208,7 @@ a.darken:hover span{color:#fff;
 
 #logo:hover {
   opacity: 0.1;
-  transition: color, 3s, ease-out;
+  transition: color, 5s, ease-out;
 
 }
 
