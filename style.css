@@ -378,6 +378,13 @@ img {
 
 }
 
+/*-----------------------------projects---------------------------------*/
+
+.projectheader { 
+  float: right;
+  margin-right: 900px;
+}
+
 /*add css underline for links*/
 
 /* For large devices (e.g. desktops) */
