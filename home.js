@@ -12,22 +12,43 @@ $(document).ready(function(){
 
     });
 
-   $('a').hover(
-    function(){
-    var image = $(this).find('img'),
-     caption = $(this).find('div');
-     caption.width(image.width());
-     caption.height(image.height());
-     caption.fadeIn(100);
-    },
-    function(){
-     var image= $(this).find('img'),
-        caption = $(this).find('div');
+//    $('a').hover(
+//     function(){
+//     var image = $(this).find('img'),
+//      caption = $(this).find('div');
+//      caption.width(image.width());
+//      caption.height(image.height());
+//      caption.fadeIn(100);
+//     },
+//     function(){
+//      var image= $(this).find('img'),
+//         caption = $(this).find('div');
 
-    caption.width(image.width());
-    caption.height(image.height());
-    caption.fadeOut(100);
-});
+//     caption.width(image.width());
+//     caption.height(image.height());
+//     caption.fadeOut(100);
+// });
+// $('.fadein').hide().load(function () {
+//         $(this).fadeIn(2000);
+//     });
 
+//     $('.galleryimg').hide().load(function () {
+//         $(this).fadeIn(4000);
+//     });
+
+//     $('#logo').hide().load(function () {
+//         $(this).fadeIn(2000);
+//     });
+
+
+//     $('.galleryimage').hover(function(){
+//         $(this).find('.overlay').stop().fadeIn(100);
+//         $('.view').show();
+
+
+//         }, function(){
+//         $(this).find('.overlay').stop().fadeOut(400);
+//         $('.view').hide();
+//     });
         
     });
