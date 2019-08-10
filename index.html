@@ -1,129 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
 	<link rel="stylesheet"; type="text/css"; href="style.css"/>
-	<script src="jquery-1.12.1.js"></script>
-	<script src="home.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
-	<title>Masha.Work</title>
-
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+	<title>Masha.work</title>
 </head>
+
 <body>
 
+	<div id="bg-container"> 
+		<div id="blurb-panel"> 
+			<svg id="logo" width="32" height="16" viewBox="0 0 35 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path class="logo-fill" d="M8 8H12V12H8V8Z" fill="white"/>
+				<path class="logo-fill" d="M4 0H0V4V8V12V16H4V12V8H8V4H4V0Z" fill="white"/>
+				<path class="logo-fill" d="M16 4H12V8H16V12V16H20V12V8V4V0H16V4Z" fill="white"/>
+				<path class="logo-fill" d="M27 0H23V4H27H31V0H27Z" fill="white"/>
+				<path class="logo-fill" d="M27 8H23V12H27H31V16H35V12V8V4H31V8H27Z" fill="white"/>
+			</svg>
+			<div id="blurb-container"> 
+				<p class="blurb-text">Hey, I’m <b> Masha Andreyeva </b> – <br> I design visuals, interfaces, &amp <br> experiences for digital products. <br> <br> Currently, I design in-house at <br> <a href="https://www.ixl.com" target="_blank"> IXL Learning</a>. Previously, I studied <br> Cognitive Science at <a href="https://cogsci.berkeley.edu/" target="_blank"><u>UC Berkeley</u></a>. </p>
+			</div>
+			<div id="links-container"> 
+				<p id="email"> <a href ="mailto:andreyeva.masha@gmail.com" target="_blank"><u>email</u></a></p>
 
-<!--navigation bar-->
-
-
-<div class="nav">
-	<!--nav view toggle arrow-->
-	<a href="#" class="nav-toggle"> 
-		<img src="assets/arrow-small.png" alt="<" id="nav-arrow-img">
-	</a>
-	<!--logo-->
-	<div id="logo-container">
-		<a href="index.html"  style="text-decoration:none; color: #fff;">
-<!-- 			<img src="assets/masha-handwritten-logo-white.png" alt="Masha" id="logo"> -->
-			<p class = "masha"> Masha.</p>
-		</a>
-		
-	</div>
-	<!--the actual nav menu-->
-	<div class="table">
-    	<div class="cell">
-			<ul>
-				<!-- <div class="navarrow" id="hi-arrow"></div> -->
-				<!-- <li><a href="index.html" class="hvr-underline">Hi</a> </li>
-				<div class="navarrow" id="design-arrow"></div> -->
-				<li><a href="index.html" class="hvr-underline" style="color:#d6f74b;">DESIGN WORK</a></li>
-				<!-- <div class="navarrow" id="photo-arrow"></div> -->
-				<li><a href="photo.html" class="hvr-underline">PHOTOGRAPHS</a></li>
-				<!-- <div class="navarrow" id="mediums-arrow"></div> -->
-				<!-- <li><a href="mediums.html" class="hvr-underline">Mediums</a></li> -->
-				<!-- <div class="navarrow" id="about-arrow"></div> -->
-			</ul>
-
-			
-    	</div>
-    	
-    </div>
-</div>
-
-<!--content-->
-<div class="content">
-	<div class="gallery">
-
-		
-		<div class="box">
-			<a href="images/design/abisko.pdf" target="_blank" class="darken">
-				<div class="caption">Abisko</div>
-				<div class="caption"> <hr class = "captiondash"> </hr> </div>
-				<div class="caption" id="description" style="padding-top: 15px;"><p>CONCEPT FOR INTERFACING WITH LIGHT IN THE MODERN WORKPLACE</p></div>
-				<img src="images/design/abisko_thumbnail.jpg" width="400" height="400"/>
-			</a>	
+			</div>
 		</div>
-		<div class="box">
-			<a href="#" target="_blank" class="darken">
-				<div class="caption">Agnes</div>
-				<div class="caption"> <hr class = "captiondash"> </hr> </div>
-				<div class="caption" id="description" style="padding-top: 15px;"><p>UI, UX, AND BRAND FOR AGNES.IO, AN APP FOR FINDING GROUPS AND EVENTS IN COLLEGE</p></div>
-				<img src="images/design/agnes_thumbnail.png" width="400" height="400"/>
-			</a>	
-		</div>
-
-		<div class="box">
-			<a href="images/design/curious.pdf" target="_blank" class="darken">
-				<div class="caption">Curious</div>
-				<div class="caption"> <hr class = "captiondash"> </hr> </div>
-				<div class="caption" id="description" style="padding-top: 15px;"><p>UX FOR A QUANTIFIED SELF PRODUCT</p></div>
-				<img src="images/design/curious_thumbnail.png" alt="image" class="sqimg" width="400" height="400">
-	
-			</a>	
-		</div>
-	
-		<div class="box">
-			<a href="images/design/bi.pdf" target="_blank" class="darken">
-				<div class="caption">Berkeley Innovation</div>
-				<div class="caption"> <hr class = "captiondash"> </hr> </div>
-				<div class="caption" id="description" style="padding-top: 15px;"><p>LOGO AND IDENTITY FOR A HUMAN-CENTERED DESIGN ORGANIZATION</p></div>
-				<img src="images/design/bi_thumbnail.png" alt="image" class="sqimg" width="400" height="400">
-				<!-- <span class="imgtitle">BERKELEY INNOVATION IDENTITY</span>	 -->
-			</a>	
-		</div>
-		
-		<div class="box">
-			<a href="images/design/sungevity.pdf" target="_blank" class="darken">
-				<div class="caption">Sungevity</div>
-				<div class="caption"> <hr class = "captiondash"> </hr> </div>
-				<div class="caption" id="description" style="padding-top: 15px;"><p>ICON AND LANDING PAGE FOR A SOLAR SMARTWATCH APP</p></div>
-				<img src="images/design/sungevity_thumbnail.png" alt="image" class="sqimg" width="400" height="400">
-				<!-- <span class="imgtitle">BERKELEY INNOVATION IDENTITY</span>	 -->
-			</a>	
-		</div>
-
-		<div class="box">
-			<a href="images/design/polyhack.pdf" target="_blank" class="darken">
-				<div class="caption">Polyhack</div>
-				<div class="caption"> <hr class = "captiondash"> </hr> </div>
-				<div class="caption" id="description" style="padding-top: 15px;"><p>LOGO AND PRINT FOR A HACKATHON</p></div>
-				<img src="images/design/polyhack_thumbnail.png" alt="image" class="sqimg" width="400" height="400">
-				<!-- <span class="imgtitle">BERKELEY INNOVATION IDENTITY</span>	 -->
-			</a>	
-		</div>
-
-<!-- 		<div class="box">
-			<a href="#" class="darken">
-				<div class="caption">MyHealthTeams</div>
-				<div class="caption"> <hr class = "captiondash"> </hr> </div>
-				<div class="caption" id="description" style="padding-top: 15px;"><p>GRAPHIC DESIGN FOR A SOCIAL NETWORK FOR CHRONIC CONDITIONS</p></div>
-				<img src="images/design/mhtvisual_thumbnail.png" alt="image" class="sqimg" width="400" height="400">
-				<!-- <span class="imgtitle">BERKELEY INNOVATION IDENTITY</span>	 -->
-<!-- 			</a>	
-		</div> --> 
 	</div>
 
-</div>
-
-</body>
-</html>
+<body>
+<html>
