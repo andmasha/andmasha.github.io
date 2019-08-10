@@ -58,14 +58,21 @@ a{
 }
 
 @media only screen and (max-width: 400px) {
+	#blurb-container{
+		margin-left: 32px;
+		height: inherit;
+		display: flex;
+		align-items: center; 
+	}
 	.blurb-text{
-		color: #000000;
+		color: #DCFFD7;
 		font-size: 14px;
 		font-family: 'IBM Plex Mono', monospace;
 		font-weight: 300;
 		letter-spacing: .08em;
 		line-height: 160%;
 	}
+
 }
 
 #links-container{
