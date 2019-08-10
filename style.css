@@ -59,7 +59,7 @@ a{
 
 @media only screen and (max-width: 400px) {
 	#blurb-container{
-		margin-left: 32px;
+		margin-left: 20px;
 		height: inherit;
 		display: flex;
 		align-items: center; 
