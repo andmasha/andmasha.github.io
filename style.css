@@ -58,14 +58,34 @@ a{
 }
 
 @media only screen and (max-width: 400px) {
-  .blurb-text{
-	color: #DCFFD7;
-	font-size: 14px;
-	font-family: 'IBM Plex Mono', monospace;
-	font-weight: 300;
-	letter-spacing: .08em;
-	line-height: 160%;
-}
+	#logo{
+		margin: 0;
+		padding: 20px;
+		width: 36px;
+		position: absolute;
+	}
+
+	#blurb-container{
+		margin-left: 20px;
+		height: inherit;
+		display: flex;
+	  	align-items: center; 
+	}
+	 .blurb-text{
+		color: #DCFFD7;
+		font-size: 14px;
+		font-family: 'IBM Plex Mono', monospace;
+		font-weight: 300;
+		letter-spacing: .08em;
+		line-height: 160%;
+	}
+	#links-container{
+		left: 20px;
+		bottom: 20px;
+		position: absolute;
+	}
+
+
 }
 
 #links-container{
@@ -84,5 +104,3 @@ a{
 /*	padding: 32px;*/
 	/*background-color: #9EEDB7; */
 }
-
-
