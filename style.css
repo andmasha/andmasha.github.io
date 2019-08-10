@@ -58,13 +58,13 @@ a{
 }
 
 @media only screen and (max-width: 400px) {
-	#links-container{
-		left: 20px;
-		bottom: 20px;
-	}
-	#email{
+	.blurb-text{
 		color: #000000;
 		font-size: 14px;
+		font-family: 'IBM Plex Mono', monospace;
+		font-weight: 300;
+		letter-spacing: .08em;
+		line-height: 160%;
 	}
 }
 
