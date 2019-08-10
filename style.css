@@ -59,7 +59,7 @@ a{
 
 @media only screen and (max-width: 400px) {
 	#blurb-container{
-		margin-left: 0px;
+		margin-left: 6px;
 		height: inherit;
 		display: flex;
 		align-items: center; 
@@ -74,7 +74,7 @@ a{
 	}
 	#email{
 		color: #DCFFD7;
-		font-size: 13px;
+		font-size: 12px;
 		font-family: 'IBM Plex Mono', monospace;
 		font-weight: 300;
 		letter-spacing: .08em;
