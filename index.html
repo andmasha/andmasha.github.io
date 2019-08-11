@@ -11,6 +11,14 @@
 
 	<div id="bg-container"> 
 		<div id="blurb-panel"> 
+			<div class="cursor"></div>
+				<script>
+					const cursor = document.querySelector('.cursor');
+					
+					document.addEventListener('mousemove', e => {
+						cursor.setAttribute("style", "top: "+(e.pageY - 12) +"px; left: " + (e.pageX - 12)+"px;")
+					})
+				</script>
 			<svg id="logo" width="36" height="16" viewBox="0 0 35 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path class="logo-fill" d="M8 8H12V12H8V8Z" fill="white"/>
 				<path class="logo-fill" d="M4 0H0V4V8V12V16H4V12V8H8V4H4V0Z" fill="white"/>
@@ -28,5 +36,5 @@
 		</div>
 	</div>
 
-<body>
-<html>
+</body>
+</html>
