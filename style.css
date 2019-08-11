@@ -1,6 +1,22 @@
-*{
-	margin: 0px;
+body{
+	margin: 0;
+	height: 100vh;
+	/*cursor: url("assets/cursor_dot.svg"), default;*/
+	cursor: none;
+
 }
+
+.cursor{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #FFEFD6;
+	mix-blend-mode: difference;
+	position: absolute;
+	z-index: 10000;
+	pointer-events: none;
+}
+
 
 /*global styles*/
 
@@ -9,7 +25,7 @@ b{
 }
 
 a{
-	color: #DCFFD7;
+	color: #B8F5FF;
 }
 
 /* panels */ 
@@ -18,7 +34,7 @@ a{
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background-color: #006450;
+	background-color: #0D5293;
 	position: absolute;
 	left: 0px;
 
@@ -35,7 +51,7 @@ a{
 }
 
 .logo-fill{
-	fill: #DCFFD7;
+	fill: #B8F5FF;
 }
 
 
@@ -49,7 +65,7 @@ a{
 
 
 .blurb-text{
-	color: #DCFFD7;
+	color: #B8F5FF;
 	font-size: 16px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
@@ -59,7 +75,7 @@ a{
 
 @media only screen and (max-width: 400px) {
 	#blurb-container{
-		margin-left: 6px;
+		margin-left: 4px;
 		height: inherit;
 		display: flex;
 		align-items: center; 
@@ -89,7 +105,7 @@ a{
 }
 
 #email{
-	color: #DCFFD7;
+	color: #B8F5FF;
 	font-size: 15px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
