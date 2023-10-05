@@ -10,7 +10,7 @@ body{
 	width: 24px;
 	height: 24px;
 	border-radius: 50%;
-	background-color: #FFEFD6;
+	background-color: #93FF97;
 	mix-blend-mode: difference;
 	position: absolute;
 	z-index: 10000;
@@ -51,7 +51,7 @@ a{
 }
 
 .logo-fill{
-	fill: #B8F5FF;
+	fill: #93FF97;
 }
 
 
