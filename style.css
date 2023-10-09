@@ -1,7 +1,10 @@
+html {
+   min-height: 100vh;
+ }
+
 body{
 	margin: 0;
 	height: 100vh;
-	min-height: 100vh;
 	cursor: none;
 
 }
@@ -65,7 +68,7 @@ a{
 
 
 .blurb-text{
-	color: #B8F5FF;
+	color: #C7F7FF;
 	font-size: 15px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
@@ -91,7 +94,7 @@ a{
 		align-items: center; 
 	}
 	.blurb-text{
-		color: #B8F5FF;
+		color: #C7F7FF;
 		font-size: 12px;
 		font-family: 'IBM Plex Mono', monospace;
 		font-weight: 300;
@@ -101,7 +104,7 @@ a{
 	#email{
 		margin: 0;
 		color: #B8F5FF;
-		font-size: 12px;
+		font-size: 11px;
 		font-family: 'IBM Plex Mono', monospace;
 		font-weight: 300;
 		letter-spacing: .08em;
