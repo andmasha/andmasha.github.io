@@ -51,7 +51,7 @@ a{
 }
 
 .logo-fill{
-	fill: #DCFFD7;
+	fill: #B8F5FF;
 }
 
 
@@ -61,17 +61,15 @@ a{
 	display: flex;
 	justify-content: center;
   	align-items: center; 
-	padding-left: 32px;
-	padding-right: 32px;
 }
 
 
 .blurb-text{
-	color: #DCFFD7;
-	font-size: 14px;
+	color: #B8F5FF;
+	font-size: 15px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
-	letter-spacing: .08em;
+	letter-spacing: .07em;
 	line-height: 160%;
 }
 
@@ -81,17 +79,19 @@ a{
 		height: inherit;
 		display: flex;
 		align-items: center; 
+		padding-left: 32px;
+		padding-right: 30px;
 	}
 	.blurb-text{
-		color: #DCFFD7;
+		color: #B8F5FF;
 		font-size: 14px;
 		font-family: 'IBM Plex Mono', monospace;
 		font-weight: 300;
-		letter-spacing: .08em;
+		letter-spacing: .07em;
 		line-height: 160%;
 	}
 	#email{
-		color: #DCFFD7;
+		color: #B8F5FF;
 		font-size: 12px;
 		font-family: 'IBM Plex Mono', monospace;
 		font-weight: 300;
@@ -102,16 +102,16 @@ a{
 
 #links-container{
 	left: 32px;
-	padding-bottom: 32px;
+	bottom: 30px;
 	position: absolute;
 }
 
 #email{
-	color: #DCFFD7;
+	color: #B8F5FF;
 	font-size: 14px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
-	letter-spacing: .08em;
+	letter-spacing: .07em;
 	text-transform: uppercase;
 /*	padding: 32px;*/
 	/*background-color: #9EEDB7; */
