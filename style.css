@@ -86,14 +86,13 @@ a{
 	}
 
 	.logo-fill{
-		fill: #FFFFFF;
+		fill: #B8F5FF;
 	}
 
 	#blurb-container{
 		height: inherit;
 		display: flex;
 		align-items: center; 
-		padding-left: 28px;
 	}
 	.blurb-text{
 		color: #B8F5FF;
