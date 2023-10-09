@@ -77,11 +77,16 @@ a{
 	.cursor{
 		opacity: 0%;
 	}
+	
 	#logo{
 		margin: 0;
 		padding: 28px;
 		width: 32px;
 		position: absolute;
+	}
+
+	.logo-fill{
+		fill: #FFFFFF;
 	}
 
 	#blurb-container{
