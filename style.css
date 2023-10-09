@@ -86,7 +86,7 @@ a{
 	}
 
 	.logo-fill{
-		fill: #B8F5FF;
+		fill: #0033ff;
 	}
 
 	#blurb-container{
@@ -114,11 +114,12 @@ a{
 
 #links-container{
 	left: 32px;
-	bottom: 30px;
+	bottom: 28px;
 	position: absolute;
 }
 
 #email{
+	margin: 0;
 	color: #B8F5FF;
 	font-size: 14px;
 	font-family: 'IBM Plex Mono', monospace;
