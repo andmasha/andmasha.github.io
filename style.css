@@ -51,7 +51,7 @@ a{
 }
 
 .logo-fill{
-	fill: #A1F2FF;
+	fill: #DCFFD7;
 }
 
 
@@ -65,8 +65,8 @@ a{
 
 
 .blurb-text{
-	color: #A1F2FF;
-	font-size: 16px;
+	color: #DCFFD7;
+	font-size: 14px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
 	letter-spacing: .08em;
@@ -105,7 +105,7 @@ a{
 }
 
 #email{
-	color: #A1F2FF;
+	color: #DCFFD7;
 	font-size: 15px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
