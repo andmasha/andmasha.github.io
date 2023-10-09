@@ -61,6 +61,8 @@ a{
 	display: flex;
 	justify-content: center;
   	align-items: center; 
+	padding-left: 32px;
+	padding-right: 32px;
 }
 
 
@@ -100,13 +102,13 @@ a{
 
 #links-container{
 	left: 32px;
-	bottom: 32px;
+	padding-bottom: 32px;
 	position: absolute;
 }
 
 #email{
 	color: #DCFFD7;
-	font-size: 15px;
+	font-size: 14px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
 	letter-spacing: .08em;
