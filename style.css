@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	height: 100vh;
-	/*cursor: url("assets/cursor_dot.svg"), default;*/
 	cursor: none;
 
 }
@@ -80,7 +79,7 @@ a{
 	
 	#logo{
 		margin: 0;
-		padding: 28px;
+		padding-left: 28px;
 		width: 32px;
 		position: absolute;
 	}
@@ -118,7 +117,7 @@ a{
 #email{
 	margin: 0;
 	color: #B8F5FF;
-	font-size: 14px;
+	font-size: 15px;
 	font-family: 'IBM Plex Mono', monospace;
 	font-weight: 300;
 	letter-spacing: .07em;
